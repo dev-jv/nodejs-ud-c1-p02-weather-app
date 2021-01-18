@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dev-jv/nodejs-ud-c1-p02-weather-app#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "yargs": "^16.2.0"
   }
 }
