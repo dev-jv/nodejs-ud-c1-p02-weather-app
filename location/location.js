@@ -10,6 +10,7 @@ const getLocationLatLon = async(address) => {
         });
         const resp = await instance.get();
         data = resp.data;
+        // console.log(data)
     } catch (e) {
         if( data === undefined ){
             throw new Error(`No hay resultados para ${address}`);
